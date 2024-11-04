@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Cela importe le fichier CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Cela importe Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Titre de l'onglet -->
+    <title>La Maison du Chocolat</title>
+  </head>
+
+  <body>
+    <header>
+      <a class="title">La Maison du <span class="text-pink">Chocolat.</span></a>
+      <!-- La navigation -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Accueil</a>
+            <a href="#">La Chocolaterie</a>
+            <a href="#">Recette</a>
+            <a href="#">Actus</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <!--  Le background avec une image importée dans le fichier CSS avec le texte et un bouton -->
+        <h1 class="no-bold">NOUVELLE SAISON</h1>
+        <h2>NOUVEAUX CHOCOLATS</h2>
+
+        <button class="button-hero">Par ici</button>
+      </section>
+
+      <!-- La présentation avec les icônes, le titre et la description -->
+      <section class="introduction">
+        <div class="introduction__item">
+          <img
+            class="introduction__icon"
+            src="./img/steps-icon-1.png"
+            alt="Icône médaille"
+          />
+          <h2 class="introduction__title">Qualité</h2>
+          <p class="introduction__description">
+            Une charte en 36 points encadre la qualité de nos chocolats et
+            l'activité de nos boutiques.
+          </p>
+        </div>
+
+        <div class="introduction__item">
+          <img
+            class="introduction__icon"
+            src="./img/steps-icon-2.png"
+            alt="Icône plante"
+          />
+          <h2 class="introduction__title">Ecologie</h2>
+          <p class="introduction__description">
+            Nous privlégions et encourageons les modes de culture, de récolte et
+            de préparation 100% naturels.
+          </p>
+        </div>
+
+        <div class="introduction__item">
+          <img
+            class="introduction__icon"
+            src="./img/steps-icon-3.png"
+            alt="Icône médaille"
+          />
+          <h2 class="introduction__title">Equitable</h2>
+          <p class="introduction__description">
+            La prime du commerce équitable et le prix minimum garantissant aux
+            petits producteurs une juste rémunération.
+          </p>
+        </div>
+      </section>
+
+      <!-- Les 2 cartes avec 2 images différentes en arrière-plan -->
+      <section class="cards">
+        <div class="cards-text-club card">
+          <div class="background-text">
+            <h2>LE CLUB</h2>
+            <div class="border"></div>
+            <h5>
+              Inscrivez-vous dès maintenant et profitez de nos offres spéciales!
+            </h5>
+            <button>Plus d'infos</button>
+          </div>
+        </div>
+
+        <div class="cards-text-news card">
+          <div class="background-text">
+            <h2>NOS ACTUS</h2>
+            <div class="border"></div>
+            <h5>
+              Offres spéciales, nouvelles gammes de produits, évènements...
+            </h5>
+            <button>Plus d'infos</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- La section du contact avec un formulaire et un bouton -->
+      <section class="contact">
+        <h1>Contactez-nous</h1>
+        <hr />
+        <h3>
+          Nous sommes une entreprise de chocolaterie proposant toutes sortes de
+          chocolats mais aussi des cours pour vous permettre de préparer
+          vous-même vos chocolats.
+        </h3>
+        <div class="form">
+          <div class="contact__form-group">
+            <label> Nom </label>
+            <input type="text" name="lastname" placeholder="Votre nom" />
+          </div>
+          <div class="contact__form-group">
+            <label> Email </label>
+            <input type="text" name="email" placeholder="Votre nom" />
+          </div>
+          <button>OK</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h1>La Maison du <span class="text-pink">Chocolat.</span></h1>
+      <h3 class="copyright">Copyright © Tous droits réservés</h3>
+    </footer>
+  </body>
+</html>
