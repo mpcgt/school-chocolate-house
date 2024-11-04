@@ -8,4 +8,5 @@ This repository is an exercise on these HTML/CSS languages in my school, the exe
 * Flexbox
 
 Here's how to go responsive (mobile) :
+<br />
 <img src="https://github.com/mpcgt/school-chocolate-house/blob/main/img/github/mobile-capture.png?raw=true" alt="Mobile Capture" />
