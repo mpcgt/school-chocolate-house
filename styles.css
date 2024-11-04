@@ -272,27 +272,32 @@ footer {
 
 /* Responsive */
 @media screen and (min-width: 600px) {
+  /* Modification de la taille du bouton dans le hero */
   .button-hero {
     width: 10%;
   }
 
+  /*  ALigner les icônes et le texte */
   .introduction {
     flex-direction: row;
     width: 90%;
   }
 
+  /* Centrer le texte et l'icône */
   .introduction__item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .text-qualite,
-  .text-ecologie,
-  .text-equitable {
-    margin-bottom: 10px;
+  /* Espacer en haut et en bas le texte */
+  .introduction__description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
   }
 
+  /*  Mettre les 2 cards côte à côte */
   .cards {
     flex-direction: row;
   }
@@ -304,6 +309,7 @@ footer {
     margin-right: 15px;
   }
 
+  /*  Mettre les 2 inputs côte à côte avec un espacement en haut et en bas */
   .form {
     display: flex;
     flex-direction: row;
